@@ -22,9 +22,6 @@ DEVICE_PATH := device/realme/bladerunner
 # Assert
 TARGET_OTA_ASSERT_DEVICE := RMX2071CN,RMX2075L1,RMX2076L1,bladerunner
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
-
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
