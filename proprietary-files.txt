@@ -13,10 +13,8 @@ odm/etc/acdbdata/Speaker_cal.acdb
 # Audio firmware
 odm/firmware/tfa98xx.cnt
 
-# Audio
-vendor/lib/libextcamera_client.so
-vendor/lib/libgui1_vendor.so
-vendor/lib/vendor.oplus.hardware.extcamera@1.0.so
+# Audio libraries
+vendor/lib/hw/audio.primary.kona.so
 
 # Camera
 odm/etc/camera/config/camera_unit_config
@@ -91,6 +89,9 @@ vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
+
+# Listen
+vendor/lib/hw/sound_trigger.primary.kona.so
 
 # NFC
 odm/etc/nfc/libnfc-mtp-SN100.conf_19705:vendor/etc/libnfc-mtp-SN100.conf
