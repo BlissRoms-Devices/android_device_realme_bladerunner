@@ -12,7 +12,7 @@
     <bool name="config_deviceSupportsPowerShare">false</bool>
 
     <!-- Whether device supports GameMode -->
-    <bool name="config_deviceSupportsGameMode">true</bool>
+    <bool name="config_deviceSupportsGameMode">false</bool>
 
     <!-- Whether device supports TP Edge Limit -->
     <bool name="config_deviceSupportsTPEdgeLimit">false</bool>
