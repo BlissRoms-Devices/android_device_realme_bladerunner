@@ -94,7 +94,8 @@ vendor/lib64/libqtikeymaster4.so
 vendor/lib/hw/sound_trigger.primary.kona.so
 
 # NFC
-odm/etc/nfc/libnfc-mtp-SN100.conf_19705:vendor/etc/libnfc-mtp-SN100.conf
+odm/etc/nfc/libnfc-mtp-SN100.conf_19705:vendor/etc/libnfc-nxp-19705.conf
+odm/etc/nfc/libnfc-mtp-SN100.conf_19795:vendor/etc/libnfc-nxp-19795.conf
 odm/etc/nfc/libnfc-nci.conf_19705:vendor/etc/libnfc-nci.conf
 odm/lib/libsn100u_fw.so:vendor/lib/libsn100u_fw.so
 
