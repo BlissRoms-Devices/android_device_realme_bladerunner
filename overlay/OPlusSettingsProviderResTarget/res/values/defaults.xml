@@ -17,4 +17,8 @@
 
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
     <string name="def_device_name_simple">realme X50 Pro 5G</string>
+
+    <!-- Default for LineageSettings.Secure.VOLUME_PANEL_ON_LEFT -->
+    <bool name="def_volume_panel_on_left">true</bool>
+
 </resources>
