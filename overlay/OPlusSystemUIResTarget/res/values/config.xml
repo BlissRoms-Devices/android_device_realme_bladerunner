@@ -27,4 +27,7 @@
     <!-- Udfps vendor code -->
     <integer name="config_udfps_vendor_code">0</integer>
 
+    <!-- Color of the UDFPS Pressed view -->
+    <color name="config_udfpsColor">#00ffffff</color>
+
 </resources>
