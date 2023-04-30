@@ -1,0 +1,140 @@
+## All proprietary files from this list, unless pinned and noted otherwise, are
+## from realme X50 Pro 5G (RMX2076_11.F.09).
+
+# ACDB
+odm/etc/acdbdata/Bluetooth_cal.acdb
+odm/etc/acdbdata/General_cal.acdb
+odm/etc/acdbdata/Global_cal.acdb
+odm/etc/acdbdata/Handset_cal.acdb
+odm/etc/acdbdata/Hdmi_cal.acdb
+odm/etc/acdbdata/Headset_cal.acdb
+odm/etc/acdbdata/Speaker_cal.acdb
+
+# Audio firmware
+odm/firmware/tfa98xx.cnt
+
+# Audio
+vendor/lib/libextcamera_client.so
+vendor/lib/libgui1_vendor.so
+vendor/lib/vendor.oplus.hardware.extcamera@1.0.so
+
+# Camera
+odm/etc/camera/config/camera_unit_config
+odm/etc/camera/config/gc8054
+odm/etc/camera/config/hi846
+odm/etc/camera/config/imx616
+odm/etc/camera/config/oplus_camera_aps_config
+odm/etc/camera/config/oplus_camera_config
+odm/etc/camera/config/s5k3m5sx
+odm/etc/camera/config/s5kgw1
+odm/etc/camera/CameraHWConfiguration.config
+odm/etc/camera/camera_engmode.xml
+odm/etc/camera/settings_fdc.txt
+odm/lib64/camera/com.qti.sensor.gc8054.so
+odm/lib64/camera/com.qti.sensor.hi846.so
+odm/lib64/camera/com.qti.sensor.imx616.so
+odm/lib64/camera/com.qti.sensor.ov02a1b.so
+odm/lib64/camera/com.qti.sensor.s5k3m5sx.so
+odm/lib64/camera/com.qti.sensor.s5kgw1.so
+odm/lib64/camera/com.qti.sensormodule.ofilm_gc8054.bin
+odm/lib64/camera/com.qti.sensormodule.qtech_imx616.bin
+odm/lib64/camera/com.qti.sensormodule.qtech_s5k3m5sx.bin
+odm/lib64/camera/com.qti.sensormodule.qtech_s5kgw1.bin
+odm/lib64/camera/com.qti.sensormodule.shine_ov02a1b.bin
+odm/lib64/camera/com.qti.sensormodule.truly_hi846.bin
+odm/lib64/camera/com.qti.tuned.sm8250_ofilm_gc8054.bin
+odm/lib64/camera/com.qti.tuned.sm8250_qtech_imx616_19795.bin
+odm/lib64/camera/com.qti.tuned.sm8250_qtech_s5k3m5sx.bin
+odm/lib64/camera/com.qti.tuned.sm8250_qtech_s5kgw1.bin
+odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02a1b.bin
+odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846_19795.bin
+
+# Charger
+odm/firmware/fastchg/19705/oplus_vooc_fw.bin
+odm/firmware/fastchg/19706/oplus_vooc_fw.bin
+odm/firmware/fastchg/19795/oplus_vooc_fw.bin
+odm/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin
+odm/firmware/fastchg/charging_thermal_config_default.txt
+
+# Display calibration data
+vendor/etc/ltm_config_19795_samsung_AMS678UW01_dsc_cmd_mode_panel.xml
+vendor/etc/ltm_config_samsung_AMS678UW01_dsc_cmd_mode_panel.xml
+vendor/etc/ltm_config_samsung_AMS678UW01_qhd_panel.xml
+vendor/etc/qdcm_calib_data_19795_samsung_AMS678UW01_dsc_cmd_mode_panel.xml
+vendor/etc/qdcm_calib_data_samsung_AMS678UW01_dsc_cmd_mode_panel.xml
+vendor/etc/qdcm_calib_data_samsung_AMS678UW01_qhd_panel.xml
+
+# Fingerprint firmware
+odm/vendor/firmware/goodixfp.b00
+odm/vendor/firmware/goodixfp.b01
+odm/vendor/firmware/goodixfp.b02
+odm/vendor/firmware/goodixfp.b03
+odm/vendor/firmware/goodixfp.b04
+odm/vendor/firmware/goodixfp.b05
+odm/vendor/firmware/goodixfp.b06
+odm/vendor/firmware/goodixfp.b07
+odm/vendor/firmware/goodixfp.mdt
+vendor/firmware/image/opluseid.b00
+vendor/firmware/image/opluseid.b01
+vendor/firmware/image/opluseid.b02
+vendor/firmware/image/opluseid.b03
+vendor/firmware/image/opluseid.b04
+vendor/firmware/image/opluseid.b05
+vendor/firmware/image/opluseid.b06
+vendor/firmware/image/opluseid.b07
+vendor/firmware/image/opluseid.mdt
+
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
+vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
+vendor/lib64/libkeymasterdeviceutils.so
+vendor/lib64/libkeymasterprovision.so
+vendor/lib64/libkeymasterutils.so
+vendor/lib64/libqtikeymaster4.so
+
+# NFC
+odm/etc/nfc/libnfc-mtp-SN100.conf_19705:vendor/etc/libnfc-mtp-SN100.conf
+odm/etc/nfc/libnfc-nci.conf_19705:vendor/etc/libnfc-nci.conf
+odm/lib/libsn100u_fw.so:vendor/lib/libsn100u_fw.so
+
+# Sensors
+odm/etc/sensor/config/kona_qrd_bmi26x_0.json
+odm/etc/sensor/config/kona_qrd_cct.json
+odm/etc/sensor/config/kona_qrd_cct_rear.json
+odm/etc/sensor/config/kona_qrd_icm4x6xx.json
+odm/etc/sensor/config/kona_qrd_lsm6dso.json
+odm/etc/sensor/config/kona_qrd_sx933x_0.json
+odm/etc/sensor/sensor_config.json
+
+# Touchscreen firmware
+odm/firmware/tp/19795/FW_GT9886_SAMSUNG.img
+odm/firmware/tp/19795/FW_GT9886_SAMSUNG_FAE.img
+odm/firmware/tp/19795/LIMIT_GT9886_SAMSUNG.img
+
+# Vibrator firmware
+odm/firmware/aw8697_realme_its_realme_RTP_161_226Hz.bin
+odm/firmware/aw8697_realme_its_realme_RTP_161_230Hz.bin
+odm/firmware/aw8697_realme_its_realme_RTP_161_234Hz.bin
+odm/firmware/aw8697_realme_its_realme_RTP_161_237Hz.bin
+odm/firmware/aw8697_realme_jingle_RTP_163_226Hz.bin
+odm/firmware/aw8697_realme_jingle_RTP_163_230Hz.bin
+odm/firmware/aw8697_realme_jingle_RTP_163_234Hz.bin
+odm/firmware/aw8697_realme_jingle_RTP_163_237Hz.bin
+odm/firmware/aw8697_realme_tune_RTP_162_226Hz.bin
+odm/firmware/aw8697_realme_tune_RTP_162_230Hz.bin
+odm/firmware/aw8697_realme_tune_RTP_162_234Hz.bin
+odm/firmware/aw8697_realme_tune_RTP_162_237Hz.bin
+
+# Widevine firmware
+odm/vendor/firmware/widevine.b00
+odm/vendor/firmware/widevine.b01
+odm/vendor/firmware/widevine.b02
+odm/vendor/firmware/widevine.b03
+odm/vendor/firmware/widevine.b04
+odm/vendor/firmware/widevine.b05
+odm/vendor/firmware/widevine.b06
+odm/vendor/firmware/widevine.b07
+odm/vendor/firmware/widevine.mdt
+
+# Wifi
+odm/etc/wifi/bdwlan.elf
