@@ -24,6 +24,11 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit GAPPS
+$(call inherit-product, vendor/gapps/common/common-vendor.mk)
+
+WITH_GMS := true
+
 PRODUCT_NAME := lineage_bladerunner
 PRODUCT_DEVICE := bladerunner
 PRODUCT_BRAND := realme
