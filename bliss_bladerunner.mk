@@ -21,15 +21,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from bladerunner device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common BlissROMs stuff
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-# Inherit GAPPS
-$(call inherit-product, vendor/gapps/common/common-vendor.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
-WITH_GMS := true
-
-PRODUCT_NAME := lineage_bladerunner
+PRODUCT_NAME := bliss_bladerunner
 PRODUCT_DEVICE := bladerunner
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX2076

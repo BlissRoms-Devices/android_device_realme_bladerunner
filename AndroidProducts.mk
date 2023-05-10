@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_bladerunner.mk
+    $(LOCAL_DIR)/bliss_bladerunner.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_bladerunner-user \
-    lineage_bladerunner-userdebug \
-    lineage_bladerunner-eng
+    bliss_bladerunner-user \
+    bliss_bladerunner-userdebug \
+    bliss_bladerunner-eng
