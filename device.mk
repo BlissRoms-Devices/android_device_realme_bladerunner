@@ -38,6 +38,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     disable_configstore
 
+# Init
+PRODUCT_PACKAGES += \
+    init.oplus.perf.rc
+
 # Overlays
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
