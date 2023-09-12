@@ -62,6 +62,14 @@ vendor/etc/qdcm_calib_data_19795_samsung_AMS678UW01_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_samsung_AMS678UW01_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_samsung_AMS678UW01_qhd_panel.xml
 
+# Display Eye Protection
+odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml
+odm/etc/samsung1024_samsung_ams678uw01_eyeprotect_data.xml
+odm/etc/samsung1024_samsung_ams678uw01_srgb_eyeprotect_data.xml
+
 # Fingerprint firmware
 odm/vendor/firmware/goodixfp.b00
 odm/vendor/firmware/goodixfp.b01
