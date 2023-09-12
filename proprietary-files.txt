@@ -136,20 +136,6 @@ odm/firmware/tp/19795/FW_GT9886_SAMSUNG.img
 odm/firmware/tp/19795/FW_GT9886_SAMSUNG_FAE.img
 odm/firmware/tp/19795/LIMIT_GT9886_SAMSUNG.img
 
-# Vibrator firmware
-odm/firmware/aw8697_realme_its_realme_RTP_161_226Hz.bin
-odm/firmware/aw8697_realme_its_realme_RTP_161_230Hz.bin
-odm/firmware/aw8697_realme_its_realme_RTP_161_234Hz.bin
-odm/firmware/aw8697_realme_its_realme_RTP_161_237Hz.bin
-odm/firmware/aw8697_realme_jingle_RTP_163_226Hz.bin
-odm/firmware/aw8697_realme_jingle_RTP_163_230Hz.bin
-odm/firmware/aw8697_realme_jingle_RTP_163_234Hz.bin
-odm/firmware/aw8697_realme_jingle_RTP_163_237Hz.bin
-odm/firmware/aw8697_realme_tune_RTP_162_226Hz.bin
-odm/firmware/aw8697_realme_tune_RTP_162_230Hz.bin
-odm/firmware/aw8697_realme_tune_RTP_162_234Hz.bin
-odm/firmware/aw8697_realme_tune_RTP_162_237Hz.bin
-
 # Widevine firmware
 odm/vendor/firmware/widevine.b00
 odm/vendor/firmware/widevine.b01
