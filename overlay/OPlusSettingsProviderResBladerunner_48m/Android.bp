@@ -5,5 +5,5 @@
 
 runtime_resource_overlay {
     name: "OPlusSettingsProviderResBladerunner_48m",
-    device_specific: true,
+    product_specific: true,
 }
