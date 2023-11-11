@@ -80,13 +80,11 @@ odm/lib64/camera/com.qti.tuned.sm8250_sunny_imx586.bin:odm/overlay/prj_20607/odm
 odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin:odm/overlay/prj_20607/odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin|3c1fabd0d62c1b562d464a56437f3b674ec90d98
 odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin:odm/overlay/prj_20607/odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin|2f960165db23af7ce02536df4cb22ae753d32286
 
-# Charger
+# Charger firmware
 odm/firmware/fastchg/19705/oplus_vooc_fw.bin
 odm/firmware/fastchg/19706/oplus_vooc_fw.bin
 odm/firmware/fastchg/19795/oplus_vooc_fw.bin
-odm/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin
 odm/firmware/fastchg/20607/oplus_vooc_fw.bin
-odm/firmware/fastchg/charging_thermal_config_default.txt
 
 # Display calibration data
 vendor/etc/ltm_config_19795_samsung_AMS678UW01_dsc_cmd_mode_panel.xml
