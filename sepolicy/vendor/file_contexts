@@ -1,0 +1,3 @@
+# OverlayFS
+/odm/overlay/prj_20607(/.*)?                 u:object_r:vendor_configs_file:s0
+/odm/overlay/prj_20607/odm/firmware(/.*)?    u:object_r:vendor_firmware_file:s0

@@ -25,14 +25,22 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Audio
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_platform_info.xml \
-    $(LOCAL_PATH)/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
-    $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_mixer_paths.xml \
-    $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_platform_info.xml \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/bladerunner/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_platform_info.xml \
+    $(LOCAL_PATH)/audio/bladerunner/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
+    $(LOCAL_PATH)/audio/bladerunner/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_mixer_paths.xml \
+    $(LOCAL_PATH)/audio/bladerunner/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/bladerunner_48m/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/audio_platform_info.xml \
+    $(LOCAL_PATH)/audio/bladerunner_48m/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/overlay/prj_20607/vendor/etc/audio_platform_info_intcodec.xml \
+    $(LOCAL_PATH)/audio/bladerunner_48m/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/overlay/prj_20607/odm/etc/sound_trigger_mixer_paths.xml \
+    $(LOCAL_PATH)/audio/bladerunner_48m/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/overlay/prj_20607/vendor/etc/sound_trigger_mixer_paths.xml
 
 # Display
 PRODUCT_PACKAGES += \
@@ -46,7 +54,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusExtrasResTarget \
-    OPlusSettingsProviderResTarget \
+    OPlusSettingsProviderResBladerunner \
+    OPlusSettingsProviderResBladerunner_48m \
     OPlusSystemUIResTarget
 
 DEVICE_PACKAGE_OVERLAYS += \

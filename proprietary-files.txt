@@ -10,8 +10,20 @@ odm/etc/acdbdata/Hdmi_cal.acdb
 odm/etc/acdbdata/Headset_cal.acdb
 odm/etc/acdbdata/Speaker_cal.acdb
 
+# ACDB (Play) - from realme X50 Pro 5G Play (RMX2072_11.F.17)
+odm/etc/acdbdata/Bluetooth_cal.acdb:odm/overlay/prj_20607/odm/etc/acdbdata/Bluetooth_cal.acdb|fc2b698412b667a3850ad1252813e3237a5de5b1
+odm/etc/acdbdata/General_cal.acdb:odm/overlay/prj_20607/odm/etc/acdbdata/General_cal.acdb|95e6a4897790706c9c36c897216f94e56c77fd69
+odm/etc/acdbdata/Global_cal.acdb:odm/overlay/prj_20607/odm/etc/acdbdata/Global_cal.acdb|1ebddc8fd94b01c362f887a94fde1262db6b8e05
+odm/etc/acdbdata/Handset_cal.acdb:odm/overlay/prj_20607/odm/etc/acdbdata/Handset_cal.acdb|0c058a8b36c2def64fe0f7a913a493074f8cf710
+odm/etc/acdbdata/Hdmi_cal.acdb:odm/overlay/prj_20607/odm/etc/acdbdata/Hdmi_cal.acdb|437fd3deba00515bb816fa7902c4627eabcf0a2c
+odm/etc/acdbdata/Headset_cal.acdb:odm/overlay/prj_20607/odm/etc/acdbdata/Headset_cal.acdb|c189fa8c977fc7454e3e1d7fefde934f9498d8a6
+odm/etc/acdbdata/Speaker_cal.acdb:odm/overlay/prj_20607/odm/etc/acdbdata/Speaker_cal.acdb|b45ecfc3ef18cdb372a0383ae65387094e5a2efb
+
 # Audio firmware
 odm/firmware/tfa98xx.cnt
+
+# Audio firmware (Play) - from realme X50 Pro 5G Play (RMX2072_11.F.17)
+odm/firmware/tfa98xx.cnt:odm/overlay/prj_20607/odm/firmware/tfa98xx.cnt|5c793ca0e1b3b4f5b35899be26b8bdf084ed7aed
 
 # Audio libraries
 vendor/lib/hw/audio.primary.kona.so
@@ -47,11 +59,33 @@ odm/lib64/camera/com.qti.tuned.sm8250_qtech_s5kgw1.bin
 odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02a1b.bin
 odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846_19795.bin
 
+# Camera (Play) - from realme X50 Pro 5G Play (RMX2072_11.F.17)
+odm/etc/camera/config/camera_unit_config:odm/overlay/prj_20607/odm/etc/camera/config/camera_unit_config|63ed11c7fddeed9c56a5cd33c6f57d7ac8c551bc
+odm/etc/camera/config/hi846:odm/overlay/prj_20607/odm/etc/camera/config/hi846|f80b726b23a79ff99af5d4820c487b69a0019242
+odm/etc/camera/config/imx471:odm/overlay/prj_20607/odm/etc/camera/config/imx471|357c1cb5579e3a9dc22b54388afac9bdfe5af558
+odm/etc/camera/config/imx586:odm/overlay/prj_20607/odm/etc/camera/config/imx586|ddf150b90a595cee15924bef97bc93499c440bb6
+odm/etc/camera/config/oplus_camera_aps_config:odm/overlay/prj_20607/odm/etc/camera/config/oplus_camera_aps_config|c7382644ffd29e233332eea01a1b3d10652d947b
+odm/etc/camera/config/oplus_camera_config:odm/overlay/prj_20607/odm/etc/camera/config/oplus_camera_config|79153648a8c09e64820909d00241dd63021f0fce
+odm/etc/camera/CameraHWConfiguration.config:odm/overlay/prj_20607/odm/etc/camera/CameraHWConfiguration.config|4928e8e746ee24f092eaba8b7b2fc8af7431a3f2
+odm/lib64/camera/com.qti.sensor.gc02m0b.so:odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensor.gc02m0b.so|0989572953d67d9b03791f282121407497b83fa8
+odm/lib64/camera/com.qti.sensor.imx471.so:odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensor.imx471.so|b6eaf1e30a9c57c41090565ee5c04e9fa2b56a5e
+odm/lib64/camera/com.qti.sensor.imx586.so:odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensor.imx586.so|48036ffaa749449760b0e99e9bdbe62848e28a44
+odm/lib64/camera/com.qti.sensormodule.shine_gc02m0b.bin:odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensormodule.shine_gc02m0b.bin|1639e246fd6ba309e2f15964004cddd0efd2f889
+odm/lib64/camera/com.qti.sensormodule.shine_ov02a1b_3rdmono.bin:odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensormodule.shine_ov02a1b_3rdmono.bin|1ff2f9578641b1c139739bbd0d61362f76686fd0
+odm/lib64/camera/com.qti.sensormodule.sunny_imx586.bin:odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensormodule.sunny_imx586.bin|0d4182f09cdb02c6485ee59154d09943a338d845
+odm/lib64/camera/com.qti.sensormodule.truly_hi846.bin:odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensormodule.truly_hi846.bin|3c70172c99a91f83eaf9ae6d5751ab98be281337
+odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin:odm/overlay/prj_20607/odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin|af415650aa682af791e7979029848b6c8b7e8aa3
+odm/lib64/camera/com.qti.tuned.sm8250_shine_gc02m0b.bin:odm/overlay/prj_20607/odm/lib64/camera/com.qti.tuned.sm8250_shine_gc02m0b.bin|7173fe55e5dcb685653f65bc7035e1f993222a25
+odm/lib64/camera/com.qti.tuned.sm8250_sunny_imx586.bin:odm/overlay/prj_20607/odm/lib64/camera/com.qti.tuned.sm8250_sunny_imx586.bin|fcac052e92a5c1e72d3a041a6919a4b0297b4572
+odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin:odm/overlay/prj_20607/odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin|3c1fabd0d62c1b562d464a56437f3b674ec90d98
+odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin:odm/overlay/prj_20607/odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin|2f960165db23af7ce02536df4cb22ae753d32286
+
 # Charger
 odm/firmware/fastchg/19705/oplus_vooc_fw.bin
 odm/firmware/fastchg/19706/oplus_vooc_fw.bin
 odm/firmware/fastchg/19795/oplus_vooc_fw.bin
 odm/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin
+odm/firmware/fastchg/20607/oplus_vooc_fw.bin
 odm/firmware/fastchg/charging_thermal_config_default.txt
 
 # Display calibration data
@@ -136,6 +170,9 @@ odm/etc/sensor/config/kona_qrd_lsm6dso.json
 odm/etc/sensor/config/kona_qrd_sx933x_0.json
 odm/etc/sensor/sensor_config.json
 
+# Sensors (Play) - from realme X50 Pro 5G Play (RMX2072_11.F.17)
+odm/etc/sensor/sensor_config.json:odm/overlay/prj_20607/odm/etc/sensor/sensor_config.json|73fda80c5785162a5d0fc08c941f7d6553d4f199
+
 # Touchscreen firmware
 odm/firmware/tp/19795/FW_GT9886_SAMSUNG.img
 odm/firmware/tp/19795/FW_GT9886_SAMSUNG_FAE.img
@@ -154,3 +191,6 @@ odm/vendor/firmware/widevine.mdt
 
 # Wifi
 odm/etc/wifi/bdwlan.elf
+
+# Wifi (Play) - from realme X50 Pro 5G Play (RMX2072_11.F.17)
+odm/etc/wifi/bdwlan.elf:odm/overlay/prj_20607/odm/etc/wifi/bdwlan.elf|aba758705c4443de1bd6d502d3a21e90e5f217e4
