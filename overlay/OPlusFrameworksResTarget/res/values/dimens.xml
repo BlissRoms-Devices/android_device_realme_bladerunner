@@ -28,7 +28,7 @@
     <dimen name="status_bar_height_landscape">28dp</dimen>
 
     <!-- Rounded corners  -->
-    <dimen name="rounded_corner_radius_top">90px</dimen>
-    <dimen name="rounded_corner_radius_bottom">90px</dimen>
+    <dimen name="rounded_corner_radius_top">38px</dimen>
+    <dimen name="rounded_corner_radius_bottom">38px</dimen>
 
 </resources>
